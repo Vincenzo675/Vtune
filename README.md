@@ -35,6 +35,7 @@ The name "Meld" reflects the core idea: **melding** two music platforms into a s
 ## Features
 
 ### Spotify Integration
+
 - **Spotify as search source** — Search results powered by Spotify, with automatic YouTube Music matching for playback
 - **Spotify as home source** — Home screen populated with your Spotify top tracks, top artists, playlists, and new releases
 - **Spotify-only mode** — Option to hide all YouTube-based content and show exclusively Spotify-powered sections on the home screen

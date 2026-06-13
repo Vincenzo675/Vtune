@@ -35,7 +35,7 @@ android {
         targetSdk = 36
         versionCode = 17
         versionName = "0.7.2"
-        resValue("string", "app_name", appNameOverride ?: "Meld")
+        resValue("string", "app_name", appNameOverride ?: "Vtune")
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
@@ -131,7 +131,7 @@ android {
             }
             isDebuggable = true
             if (appNameOverride == null) {
-                resValue("string", "app_name", "Meld Debug")
+                resValue("string", "app_name", "Vtune Debug")
             }
             signingConfig =
                 if (workflowDebugKeystoreFile != null) {
